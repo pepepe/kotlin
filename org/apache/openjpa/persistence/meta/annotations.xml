@@ -1,0 +1,6 @@
+<root>
+    <item name='org.apache.openjpa.persistence.meta.Types.Entity'>
+        <annotation name='java.lang.annotation.Deprecated'/>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="414.0" prefWidth="396.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MenuController">
+    <children>
+        <TextField fx:id="menuText" layoutX="14.0" layoutY="14.0" prefHeight="31.0" prefWidth="151.0" />
+        <TextField fx:id="priceText" layoutX="171.0" layoutY="14.0" prefHeight="31.0" prefWidth="151.0" />
+        <Button layoutX="328.0" layoutY="14.0" mnemonicParsing="false" onAction="#add" text="追加" />
+        <TableView fx:id="menuTable" layoutX="14.0" layoutY="57.0" prefHeight="308.0" prefWidth="364.0">
+            <columns>
+                <TableColumn fx:id="menuCol" prefWidth="251.0" text="メニュー" />
+                <TableColumn fx:id="priceCol" prefWidth="102.0" text="お値段" />
+            </columns>
+        </TableView>
+        <Button layoutX="328.0" layoutY="373.0" mnemonicParsing="false" onAction="#delete" text="削除" />
+    </children>
+</Pane>

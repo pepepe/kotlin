@@ -1,0 +1,10 @@
+INSERT INTO MENUS (
+  ID,
+  NAME,
+  PRICE)
+  SELECT
+    ID,
+    NAME,
+    PRICE
+  FROM
+    CSVREAD('./db/MENUS.csv', NULL, 'UTF-8');
